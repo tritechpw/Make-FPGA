@@ -1,0 +1,30 @@
+#Start of Constraints 
+
+# I/O Pin Assignments
+
+# Anode Bus                7-Seg #Pin    - PMod - Pin
+NET "ANO<0>"  LOC = "M1"  ; #12          -P1-1
+NET "ANO<1>"  LOC = "L1"  ; #9           -P1-2
+NET "ANO<2>"  LOC = "K1"  ; #8           -P1-3
+NET "ANO<3>"  LOC = "J1"  ; #6           -P1-4
+
+# Cathod Bus
+NET "CAT<0>"  LOC = "E1"  ; #11          -P1-7
+NET "CAT<1>"  LOC = "E2"  ; #7           -P1-8
+NET "CAT<2>"  LOC = "F1"  ; #4           -P1-9
+NET "CAT<3>"  LOC = "G1"  ; #2           -P1-10
+NET "CAT<4>"  LOC = "A2"  ; #1           -P2-1
+NET "CAT<5>"  LOC = "B2"  ; #10          -P2-2
+NET "CAT<6>"  LOC = "B3"  ; #5           -P2-3
+NET "CAT<7>"  LOC = "A3"  ; #3           -P2-4
+
+# Mater Clock
+NET "CLK"  LOC = "T8"  ;    #N/A         -NA-NA
+
+# Clear
+NET "CLEAR"  LOC = "F15"  ; #N/A         -P3-1
+
+#Hold
+NET "HOLD"  LOC = "G16"  ; #N/A          -P3 -2
+
+#End of Constraints 
